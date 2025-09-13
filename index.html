@@ -6,6 +6,8 @@
     <title>JQuery Basic</title>
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link rel="stylesheet" href="css/venobox.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -89,10 +91,98 @@
         </div>
       </div>
     </section>
+    <section id="lightBox">
+      <h1>Light Box</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 m-auto">
+            <a
+              href="images/d.jpg"
+              data-lightbox="image-1"
+              data-title="My caption"
+            >
+              <img src="images/d.jpg" alt="d.jpg" class="w-100 img-fluid" />
+            </a>
+          </div>
+          <div class="col-lg-4 m-auto">
+            <a
+              href="images/b.jpg"
+              data-lightbox="image-1"
+              data-title="My caption"
+            >
+              <img src="images/b.jpg" alt="b.jpg" class="w-100 img-fluid" />
+            </a>
+          </div>
+          <div class="col-lg-4 m-auto">
+            <a
+              href="images/c.jpg"
+              data-lightbox="image-1"
+              data-title="My caption"
+            >
+              <img src="images/c.jpg" alt="c.jpg" class="w-100 img-fluid" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="venoBox">
+      <h1>Veno Box</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 m-auto">
+            <a
+              class="my-image-links"
+              data-gall="gallery01"
+              data-maxwidth="800px"
+              href="images/bird.jpg"
+            >
+              <img
+                src="images/bird.jpg"
+                alt="bird.jpg"
+                class="w-100 img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-lg-4 m-auto">
+            <div class="videoBox">
+              <a
+                class="my-video-links"
+                data-autoplay="true"
+                data-vbtype="video"
+                href="https://www.youtube.com/live/4xJGiGTmaZE?si=b9qY_ROmmwCXFcqN"
+                >  <img
+                src="images/king.jpg"
+                alt="king.jpg"
+                class="w-100 img-fluid"
+              />
+              <i class="fa-brands fa-youtube"></i></a
+              >
+            
+            </div>
+          </div>
+          <div class="col-lg-4 m-auto">
+            <a
+              class="my-image-links"
+              data-gall="gallery01"
+              data-maxwidth="800px"
+              href="images/boss.jpg"
+            >
+              <img
+                src="images/boss.jpg"
+                alt="boss.jpg"
+                class="w-100 img-fluid"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/venobox.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

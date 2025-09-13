@@ -26,7 +26,7 @@ p {
 }
 /* All Common css End */
 body {
-  height: 1500px;
+  height: 1800px;
   background-image: linear-gradient(
     to right top,
     #5a0e3a,
@@ -64,20 +64,19 @@ button {
 .box {
   width: 250px;
   height: 250px;
-  background: #222;
+  background: teal;
   border-radius: 10px;
   margin-top: 10px;
 }
 .boxOne {
   width: 250px;
   height: 250px;
-  background: #2812a8;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   border-radius: 10px;
   margin-top: 10px;
 }
 #typeTwo {
   padding-bottom: 80px;
-  
 }
 #typeTwo h1 {
   text-align: center;
@@ -119,4 +118,28 @@ button {
   font-size: 20px;
   font-weight: 500;
   padding-bottom: 10px;
+}
+#lightBox h1 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 60px;
+}
+#venoBox {
+  padding-top: 60px;
+}
+#venoBox h1 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 60px;
+}
+.videoBox {
+  position: relative;
+}
+.videoBox i {
+  position: absolute;
+  color: red;
+  font-size: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
